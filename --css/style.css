@@ -17,6 +17,12 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
+
+.footertxt {
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
 .header {
 	height: 150px;
 	background: #B39DDB;
