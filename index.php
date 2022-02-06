@@ -25,13 +25,20 @@
 		</header>
 		<main class="content">
 			<div class="wrp">
-				<p>Content</p>
+				<?php
+        if (isset($message))print $message;
+        if (isset($_REQUEST['page'])){
+            require_once $_REQUEST['page'].".php";//contact.php
+        }else{
+            require_once "main.php";
+        }
+        ?>
 			</div>
 		</main>
 	</div>
 	<footer class="footer">
 		<div class="footertxt">
-			<p><a href="https://github.com/HarryPotterDead">HarryPotterDead</a></p>
+			<p><a href="https://github.com/HarryPotterDead">HarryPotterDead</a>  <a href="https://himkol.ru/">INHTK</a></p>
 		</div>
 	</footer>
 </body>
