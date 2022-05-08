@@ -8,6 +8,7 @@ body {
 	padding: 0;
 }
 .wrapper {
+	background-color: #738A8C;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
@@ -24,10 +25,11 @@ body {
 	position: relative;
 }
 .header {
-	height: 150px;
-	background: #B39DDB;
+	height: 50px;
+	background: #3DB5BF;
 }
 .content {
+	margin: 1%;
 	padding: 0 0 100px;
 	min-height: 200px;
 }
@@ -35,7 +37,7 @@ body {
 	margin: -46px 0 0 0;
 	height: 50px;
 	position: relative;
-	background: #f7cfad;	
+	background: #3DB5BF;	
 }
 
 #--nav
@@ -70,7 +72,12 @@ nav {
   display: block;
   padding: 1em;
   border-right: 1px solid #ADC0CE;
-  background: rgba(173, 192, 206, .3);
-  color: #29838C;
+  background: #BF3D8A;
+  color: #F4A3AA;
 }
-.two a:hover {background: #ADC0CE}
+.two a:hover {background: #000}
+
+picture {
+	max-width: 100%;
+	height: auto;
+}

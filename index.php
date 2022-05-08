@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=960">	
 	<title>Title</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="--css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -41,5 +41,6 @@
 			<p><a href="https://github.com/HarryPotterDead">HarryPotterDead</a>  <a href="https://himkol.ru/">INHTK</a></p>
 		</div>
 	</footer>
+	<script src="js\picturefill.js"></script>
 </body>
 </html>
