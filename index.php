@@ -13,12 +13,24 @@
 			<div class="wrp">
 				<nav class="two">	
 					<ul>
-						<li><a href="#"><i class="fa fa-home fa-fw"></i>Home</a></li>
-						<li><a href="#">Work</a></li>
+						<li><a href="index.php?page=main"><i class="fa fa-home fa-fw"></i>Главная</a></li>
+						<li><a href="index.php?page=portfolio">Портфолио</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">Blog</a></li>
+						<li><a href="index.php?page=blog">Blog</a></li>
 						<li><a href="#">Contact</a></li>
-						<li><a href="#">Aboutus</a></li>
+						<!--login button-->
+						<?php if (isset($_SESSION['login'])): ?>
+
+						<li><a href="index.php?page=admin"><?=$_SESSION['login']; ?></a></li>
+						<li><a href="index.php?action=logout">Выйти</a></li>
+
+						<?php else: ?>
+
+						<li><a href="index.php?page=auth">Войти</a></li>
+						<li><a href="index.php?page=register">Регистрация</a></li>
+
+						<?php endif ?>
+						<!--login button-->
 					</ul>
 				</nav>
 			</div>
